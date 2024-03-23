@@ -1,4 +1,4 @@
-const { setDateOfTheWeek } = require("./app");
+const setDateOfTheWeek = require("./app");
 
 test("Verify today's date on home page", () => {
   expect(setDateOfTheWeek()).toBe(
