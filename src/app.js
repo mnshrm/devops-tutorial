@@ -4,6 +4,6 @@ const setDateOfTheWeek = () => {
 
 try {
   document.getElementById("date").innerText = setDateOfTheWeek();
-} catch (err) {}
+} catch {}
 
 module.exports = setDateOfTheWeek;
